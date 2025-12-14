@@ -1013,6 +1013,7 @@ static event OnPostTemplatesCreated ()
 		{
 			CharTemplate.Abilities.AddItem('WeaponsMaster');
 			CharTemplate.Abilities.AddItem('ChosenImmuneMelee');
+			CharTemplate.Abilities.AddItem('M31_ENEMY_BruhThirst');
 		}
 	}
 
@@ -1026,6 +1027,8 @@ static event OnPostTemplatesCreated ()
 		{
 			CharTemplate.Abilities.AddItem('WeaponsMaster');
 			CharTemplate.Abilities.AddItem('ChosenImmuneMelee');
+			CharTemplate.Abilities.AddItem('M31_ENEMY_BruhThirst');
+			CharTemplate.Abilities.AddItem('M31_ENEMY_BruhThirstForAll');
 		}
 	}
 
@@ -1039,6 +1042,7 @@ static event OnPostTemplatesCreated ()
 		{
 			CharTemplate.Abilities.AddItem('WeaponsMaster');
 			CharTemplate.Abilities.AddItem('ChosenImmuneMelee');
+			CharTemplate.Abilities.AddItem('M31_ENEMY_BruhThirst');
 		}
 	}
 
@@ -1052,6 +1056,8 @@ static event OnPostTemplatesCreated ()
 		{
 			CharTemplate.Abilities.AddItem('WeaponsMaster');
 			CharTemplate.Abilities.AddItem('ChosenImmuneMelee');
+			CharTemplate.Abilities.AddItem('M31_ENEMY_BruhThirst');
+			CharTemplate.Abilities.AddItem('M31_ENEMY_BruhThirstForAll');
 		}
 	}
 
