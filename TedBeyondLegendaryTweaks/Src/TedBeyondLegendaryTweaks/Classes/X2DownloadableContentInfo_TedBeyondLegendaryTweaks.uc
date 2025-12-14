@@ -402,8 +402,7 @@ static event OnPostTemplatesCreated ()
 		if(CharTemplate != none)
 		{
 			CharTemplate.Abilities.AddItem('Evasive');
-			CharTemplate.Abilities.AddItem('PALockjaw');
-			CharTemplate.Abilities.AddItem('ViperMelee_Animation');
+			CharTemplate.Abilities.AddItem('M31_ENEMY_Lockjaw');
 		}
 	}
 
@@ -417,8 +416,7 @@ static event OnPostTemplatesCreated ()
 		if(CharTemplate != none)
 		{
 			CharTemplate.Abilities.AddItem('Evasive');
-			CharTemplate.Abilities.AddItem('PALockjaw');
-			CharTemplate.Abilities.AddItem('ViperMelee_Animation');
+			CharTemplate.Abilities.AddItem('M31_ENEMY_Lockjaw');
 		}
 	}
 	
