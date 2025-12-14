@@ -463,6 +463,36 @@ static event OnPostTemplatesCreated ()
 		}
 	}
 
+	// Bio Vipers get Vicious Bite
+
+	CharacterTemplateManager.FindDataTemplateAllDifficulties('BioViperSilver', DataTemplateAllDifficulties);
+
+	foreach DataTemplateAllDifficulties (DataTemplate)
+	{
+		CharTemplate = X2CharacterTemplate(DataTemplate);
+
+		if(CharTemplate != none)
+		{
+			CharTemplate.Abilities.AddItem('M31_ENEMY_CoilHunkerDamaged');
+			CharTemplate.Abilities.AddItem('LickYourWounds_LW');
+			CharTemplate.Abilities.AddItem('M31_ENEMY_ViperBite');
+		}
+	}
+
+	CharacterTemplateManager.FindDataTemplateAllDifficulties('BioViperGold', DataTemplateAllDifficulties);
+
+	foreach DataTemplateAllDifficulties (DataTemplate)
+	{
+		CharTemplate = X2CharacterTemplate(DataTemplate);
+
+		if(CharTemplate != none)
+		{
+			CharTemplate.Abilities.AddItem('M31_ENEMY_CoilHunkerDamaged');
+			CharTemplate.Abilities.AddItem('LickYourWounds_LW');
+			CharTemplate.Abilities.AddItem('M31_ENEMY_ViperBiteWithCrit');
+		}
+	}
+
 	// Grenadiers get Volatile Mix
 
 	CharacterTemplateManager.FindDataTemplateAllDifficulties('AdvGrenadierM1', DataTemplateAllDifficulties);
